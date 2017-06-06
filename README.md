@@ -11,3 +11,7 @@ Used Create React App to get the base structure for the React App, Everything el
 ##Usage
 
 run `yarn start` or `npm start`
+
+##Test
+
+run `yarn test` or `npm test`
