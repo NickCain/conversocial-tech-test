@@ -15,7 +15,7 @@ ShallowWrapper {
         Selected Chat
     </h3>
     <ChatMessage
-        message="You said: undefined"
+        message="welcome to the chat"
         type="app"
     />
     <TextBox
@@ -30,7 +30,7 @@ ShallowWrapper {
             Selected Chat
       </h3>
       <ChatMessage
-            message="You said: undefined"
+            message="welcome to the chat"
             type="app"
       />
       <TextBox
@@ -79,7 +79,7 @@ ShallowWrapper {
                     Selected Chat
           </h3>
           <ChatMessage
-                    message="You said: undefined"
+                    message="welcome to the chat"
                     type="app"
           />
           <TextBox
@@ -94,7 +94,7 @@ ShallowWrapper {
                     Selected Chat
           </h3>
           <ChatMessage
-                    message="You said: undefined"
+                    message="welcome to the chat"
                     type="app"
           />
           <TextBox

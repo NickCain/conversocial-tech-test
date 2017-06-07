@@ -15,7 +15,7 @@ ShallowWrapper {
         onSubmit={[Function]}
         type="submit"
     >
-        <textarea
+        <input
             onChange={[Function]}
             onSubmit={[Function]}
             placeholder="write your message here..."
@@ -30,7 +30,7 @@ ShallowWrapper {
             onSubmit={[Function]}
             type="submit"
       >
-            <textarea
+            <input
                   onChange={[Function]}
                   onSubmit={[Function]}
                   placeholder="write your message here..."
@@ -83,7 +83,7 @@ ShallowWrapper {
                     onSubmit={[Function]}
                     type="submit"
           >
-                    <textarea
+                    <input
                               onChange={[Function]}
                               onSubmit={[Function]}
                               placeholder="write your message here..."
@@ -98,7 +98,7 @@ ShallowWrapper {
                     onSubmit={[Function]}
                     type="submit"
           >
-                    <textarea
+                    <input
                               onChange={[Function]}
                               onSubmit={[Function]}
                               placeholder="write your message here..."
