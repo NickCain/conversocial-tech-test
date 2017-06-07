@@ -1,26 +1,15 @@
-import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 
-import styles from './ChatHistory.scss';
+import './ChatHistory.css';
 
 class ChatHistory extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {};
-  }
-
   render() {
     return (
-      <div />
+      <div className="Chat-history">
+        <h3>Chat History</h3>
+      </div>
     );
   }
 }
-
-ChatHistory.propTypes = {};
-
-ChatHistory.defaultProps = {};
-
-ChatHistory.contextTypes = {};
 
 export default ChatHistory;
