@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 
 import Header from '../components/Header/Header'
-import ChatHistory from '../components/ChatHistory/ChatHistory'
-import SelectedChat from '../components/SelectedChat/SelectedChat'
+
+import Chat from '../containers/Chat/Chat';
 
 import './App.css';
 
@@ -12,8 +12,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         <div className="App-main">
-          <ChatHistory />
-          <SelectedChat />
+          <Chat/>
         </div>
       </div>
     );
