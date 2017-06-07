@@ -18,7 +18,6 @@ class TextBox extends Component {
   };
 
   handleOnChange = (e) => {
-    console.log(e.target.value);
     this.setState({
       text: e.target.value
     })

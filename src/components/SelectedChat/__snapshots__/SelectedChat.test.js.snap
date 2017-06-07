@@ -15,12 +15,8 @@ ShallowWrapper {
         Selected Chat
     </h3>
     <ChatMessage
-        message="app"
+        message="You said: undefined"
         type="app"
-    />
-    <ChatMessage
-        message="user"
-        type="user"
     />
     <TextBox
         onSendMessage={undefined}
@@ -34,12 +30,8 @@ ShallowWrapper {
             Selected Chat
       </h3>
       <ChatMessage
-            message="app"
+            message="You said: undefined"
             type="app"
-      />
-      <ChatMessage
-            message="user"
-            type="user"
       />
       <TextBox
             onSendMessage={undefined}
@@ -53,7 +45,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <SelectedChat />,
-      "_debugID": 15,
+      "_debugID": 12,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": SelectedChat {
@@ -87,18 +79,14 @@ ShallowWrapper {
                     Selected Chat
           </h3>
           <ChatMessage
-                    message="app"
+                    message="You said: undefined"
                     type="app"
-          />
-          <ChatMessage
-                    message="user"
-                    type="user"
           />
           <TextBox
                     onSendMessage={undefined}
           />
 </div>,
-        "_debugID": 16,
+        "_debugID": 13,
         "_renderedOutput": <div
           className="Selected-chat"
 >
@@ -106,12 +94,8 @@ ShallowWrapper {
                     Selected Chat
           </h3>
           <ChatMessage
-                    message="app"
+                    message="You said: undefined"
                     type="app"
-          />
-          <ChatMessage
-                    message="user"
-                    type="user"
           />
           <TextBox
                     onSendMessage={undefined}

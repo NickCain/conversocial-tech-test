@@ -5,7 +5,7 @@ import ChatHistory from '../../components/ChatHistory/ChatHistory';
 import SelectedChat from '../../components/SelectedChat/SelectedChat';
 
 import * as actions from '../../actions/chatActions';
-
+import { getMessage } from '../../reducers/chatReducer';
 import './Chat.css';
 
 class Chat extends Component {
@@ -16,18 +16,20 @@ class Chat extends Component {
   }
 
   render() {
-    const { sendMessage } = this.props;
+    const { sendMessage, getMessage } = this.props;
     return (
       <div className="Chat">
         <ChatHistory />
-        <SelectedChat onSendMessage={sendMessage}/>
+        <SelectedChat onSendMessage={sendMessage} message={getMessage}/>
       </div>
     );
   }
 }
 
 
-const mapStateToProps = state => ({});
+const mapStateToProps = state => ({
+  getMessage: getMessage(state)
+});
 
 const mapDispatchToProps = dispatch => ({
   sendMessage: data => dispatch(actions.sendMessage(data))

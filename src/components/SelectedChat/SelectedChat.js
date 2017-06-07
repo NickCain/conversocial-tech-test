@@ -8,13 +8,20 @@ import './SelectedChat.css';
 class SelectedChat extends Component {
   render() {
     const { onSendMessage, message } = this.props;
+
+    const appMessage = `You said: ${message}`;
+    const appMessageInital = 'welcome to the chat';
+
     return (
       <div className="Selected-chat">
         <h3>Selected Chat</h3>
 
-        <ChatMessage type="app" message='app'/>
+        <ChatMessage type="app" message={message ? appMessage : appMessageInital}/>
 
-        <ChatMessage type="user" message='user'/>
+        {
+          message &&
+          <ChatMessage type="user" message={message }/>
+        }
 
         <TextBox onSendMessage={onSendMessage}/>
       </div>

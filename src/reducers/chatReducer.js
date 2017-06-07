@@ -1,7 +1,9 @@
 import _ from 'lodash';
 import * as actions from '../actions/chatActions';
 
-const initialState = {};
+const initialState = {
+  initalMessage: 'Welcome to the chat'
+};
 
 const chatReducer = (state = initialState, action) => {
   switch (action.type) {
