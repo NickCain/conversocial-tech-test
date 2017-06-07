@@ -1,3 +1,4 @@
 .Selected-chat {
+    position: relative;
     flex-grow: 4;
 }

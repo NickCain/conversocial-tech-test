@@ -1,3 +1,7 @@
 .Textbox {
+    text-align: left;
+}
 
+.Textbox textarea {
+    width: 100%;
 }

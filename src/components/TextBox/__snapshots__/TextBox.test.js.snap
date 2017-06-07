@@ -1,93 +1,5 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextBox - {type} TextBox renders should render the TextBox component 1`] = `
-ShallowWrapper {
-  "complexSelector": ComplexSelector {
-    "buildPredicate": [Function],
-    "childrenOfNode": [Function],
-    "findWhereUnwrapped": [Function],
-  },
-  "length": 1,
-  "node": <div
-    className="Textbox"
->
-    <textarea
-        placeholder="write your message here..."
-    />
-</div>,
-  "nodes": Array [
-    <div
-      className="Textbox"
->
-      <textarea
-            placeholder="write your message here..."
-      />
-</div>,
-  ],
-  "options": Object {},
-  "renderer": ReactShallowRenderer {
-    "_instance": ShallowComponentWrapper {
-      "_calledComponentWillUnmount": false,
-      "_compositeType": 0,
-      "_context": Object {},
-      "_currentElement": <TextBox />,
-      "_debugID": 5,
-      "_hostContainerInfo": null,
-      "_hostParent": null,
-      "_instance": TextBox {
-        "_reactInternalInstance": [Circular],
-        "context": Object {},
-        "props": Object {},
-        "refs": Object {},
-        "state": null,
-        "updater": Object {
-          "enqueueCallback": [Function],
-          "enqueueCallbackInternal": [Function],
-          "enqueueElementInternal": [Function],
-          "enqueueForceUpdate": [Function],
-          "enqueueReplaceState": [Function],
-          "enqueueSetState": [Function],
-          "isMounted": [Function],
-          "validateCallback": [Function],
-        },
-      },
-      "_mountOrder": 1,
-      "_pendingCallbacks": null,
-      "_pendingElement": null,
-      "_pendingForceUpdate": false,
-      "_pendingReplaceState": false,
-      "_pendingStateQueue": null,
-      "_renderedComponent": NoopInternalComponent {
-        "_currentElement": <div
-          className="Textbox"
->
-          <textarea
-                    placeholder="write your message here..."
-          />
-</div>,
-        "_debugID": 6,
-        "_renderedOutput": <div
-          className="Textbox"
->
-          <textarea
-                    placeholder="write your message here..."
-          />
-</div>,
-      },
-      "_renderedNodeType": 0,
-      "_rootNodeID": 0,
-      "_topLevelWrapper": null,
-      "_updateBatchNumber": null,
-      "_warnedAboutRefsInRender": false,
-    },
-    "getRenderOutput": [Function],
-    "render": [Function],
-  },
-  "root": [Circular],
-  "unrendered": <TextBox />,
-}
-`;
-
 exports[`TextBox - component TextBox renders should render the TextBox component 1`] = `
 ShallowWrapper {
   "complexSelector": ComplexSelector {
@@ -99,17 +11,27 @@ ShallowWrapper {
   "node": <div
     className="Textbox"
 >
-    <textarea
-        placeholder="write your message here..."
-    />
+    <form
+        onSubmit={undefined}
+        type="submit"
+    >
+        <textarea
+            placeholder="write your message here..."
+        />
+    </form>
 </div>,
   "nodes": Array [
     <div
       className="Textbox"
 >
-      <textarea
-            placeholder="write your message here..."
-      />
+      <form
+            onSubmit={undefined}
+            type="submit"
+      >
+            <textarea
+                  placeholder="write your message here..."
+            />
+      </form>
 </div>,
   ],
   "options": Object {},
@@ -119,7 +41,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <TextBox />,
-      "_debugID": 5,
+      "_debugID": 6,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": TextBox {
@@ -127,7 +49,7 @@ ShallowWrapper {
         "context": Object {},
         "props": Object {},
         "refs": Object {},
-        "state": null,
+        "state": Object {},
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],
@@ -149,17 +71,27 @@ ShallowWrapper {
         "_currentElement": <div
           className="Textbox"
 >
-          <textarea
-                    placeholder="write your message here..."
-          />
+          <form
+                    onSubmit={undefined}
+                    type="submit"
+          >
+                    <textarea
+                              placeholder="write your message here..."
+                    />
+          </form>
 </div>,
-        "_debugID": 6,
+        "_debugID": 7,
         "_renderedOutput": <div
           className="Textbox"
 >
-          <textarea
-                    placeholder="write your message here..."
-          />
+          <form
+                    onSubmit={undefined}
+                    type="submit"
+          >
+                    <textarea
+                              placeholder="write your message here..."
+                    />
+          </form>
 </div>,
       },
       "_renderedNodeType": 0,

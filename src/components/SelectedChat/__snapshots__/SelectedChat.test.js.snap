@@ -14,6 +14,7 @@ ShallowWrapper {
     <h3>
         Selected Chat
     </h3>
+    <TextBox />
 </div>,
   "nodes": Array [
     <div
@@ -22,6 +23,7 @@ ShallowWrapper {
       <h3>
             Selected Chat
       </h3>
+      <TextBox />
 </div>,
   ],
   "options": Object {},
@@ -31,7 +33,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <SelectedChat />,
-      "_debugID": 5,
+      "_debugID": 9,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": SelectedChat {
@@ -64,14 +66,16 @@ ShallowWrapper {
           <h3>
                     Selected Chat
           </h3>
+          <TextBox />
 </div>,
-        "_debugID": 6,
+        "_debugID": 10,
         "_renderedOutput": <div
           className="Selected-chat"
 >
           <h3>
                     Selected Chat
           </h3>
+          <TextBox />
 </div>,
       },
       "_renderedNodeType": 0,
