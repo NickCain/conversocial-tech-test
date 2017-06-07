@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import Button from '../common/Button/Button';
+
 import './Header.css';
 
 class Header extends Component {
@@ -8,6 +10,9 @@ class Header extends Component {
       <div className="Header">
         <div className="App-header">
           <h2>An Awesome Chat App</h2>
+          <div className="Button-wrapper">
+            <Button text="Add Chat"/>
+          </div>
         </div>
       </div>
     );
