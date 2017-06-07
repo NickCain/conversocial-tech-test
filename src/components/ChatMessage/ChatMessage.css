@@ -1,0 +1,25 @@
+.Chat-message {
+    width: 100%;
+    height: 40px;
+}
+
+.Chat-message.user {
+    text-align: left;
+}
+
+.Chat-message.user .message {
+    float: right;
+    background: lightblue;
+    width: 250px;
+    padding: 20px;
+}
+
+.Chat-message.app {
+    text-align: right;
+}
+
+.Chat-message.app .message {
+    background: lightcoral;
+    width: 250px;
+    padding: 20px;
+}

@@ -9,12 +9,20 @@ ShallowWrapper {
   },
   "length": 1,
   "node": <div
-    className="Chat-message"
-/>,
+    className="Chat-message user"
+>
+    <div
+        className="message"
+    />
+</div>,
   "nodes": Array [
     <div
-      className="Chat-message"
-/>,
+      className="Chat-message user"
+>
+      <div
+            className="message"
+      />
+</div>,
   ],
   "options": Object {},
   "renderer": ReactShallowRenderer {
@@ -23,7 +31,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <ChatMessage />,
-      "_debugID": 4,
+      "_debugID": 5,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": ChatMessage {
@@ -51,12 +59,20 @@ ShallowWrapper {
       "_pendingStateQueue": null,
       "_renderedComponent": NoopInternalComponent {
         "_currentElement": <div
-          className="Chat-message"
-/>,
-        "_debugID": 5,
+          className="Chat-message user"
+>
+          <div
+                    className="message"
+          />
+</div>,
+        "_debugID": 6,
         "_renderedOutput": <div
-          className="Chat-message"
-/>,
+          className="Chat-message user"
+>
+          <div
+                    className="message"
+          />
+</div>,
       },
       "_renderedNodeType": 0,
       "_rootNodeID": 0,

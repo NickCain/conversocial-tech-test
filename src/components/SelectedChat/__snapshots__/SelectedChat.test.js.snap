@@ -14,6 +14,14 @@ ShallowWrapper {
     <h3>
         Selected Chat
     </h3>
+    <ChatMessage
+        message="app"
+        type="app"
+    />
+    <ChatMessage
+        message="user"
+        type="user"
+    />
     <TextBox />
 </div>,
   "nodes": Array [
@@ -23,6 +31,14 @@ ShallowWrapper {
       <h3>
             Selected Chat
       </h3>
+      <ChatMessage
+            message="app"
+            type="app"
+      />
+      <ChatMessage
+            message="user"
+            type="user"
+      />
       <TextBox />
 </div>,
   ],
@@ -33,7 +49,7 @@ ShallowWrapper {
       "_compositeType": 0,
       "_context": Object {},
       "_currentElement": <SelectedChat />,
-      "_debugID": 9,
+      "_debugID": 15,
       "_hostContainerInfo": null,
       "_hostParent": null,
       "_instance": SelectedChat {
@@ -66,15 +82,31 @@ ShallowWrapper {
           <h3>
                     Selected Chat
           </h3>
+          <ChatMessage
+                    message="app"
+                    type="app"
+          />
+          <ChatMessage
+                    message="user"
+                    type="user"
+          />
           <TextBox />
 </div>,
-        "_debugID": 10,
+        "_debugID": 16,
         "_renderedOutput": <div
           className="Selected-chat"
 >
           <h3>
                     Selected Chat
           </h3>
+          <ChatMessage
+                    message="app"
+                    type="app"
+          />
+          <ChatMessage
+                    message="user"
+                    type="user"
+          />
           <TextBox />
 </div>,
       },
