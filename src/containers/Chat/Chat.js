@@ -4,6 +4,8 @@ import { connect } from 'react-redux';
 import ChatHistory from '../../components/ChatHistory/ChatHistory';
 import SelectedChat from '../../components/SelectedChat/SelectedChat';
 
+import * as actions from '../../actions/chatActions';
+
 import './Chat.css';
 
 class Chat extends Component {
@@ -14,10 +16,11 @@ class Chat extends Component {
   }
 
   render() {
+    const { sendMessage } = this.props;
     return (
       <div className="Chat">
         <ChatHistory />
-        <SelectedChat />
+        <SelectedChat onSendMessage={sendMessage}/>
       </div>
     );
   }
@@ -26,6 +29,8 @@ class Chat extends Component {
 
 const mapStateToProps = state => ({});
 
-const mapDispatchToProps = dispatch => ({});
+const mapDispatchToProps = dispatch => ({
+  sendMessage: data => dispatch(actions.sendMessage(data))
+});
 
 export default connect(mapStateToProps, mapDispatchToProps)(Chat);

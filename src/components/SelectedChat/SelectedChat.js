@@ -7,7 +7,7 @@ import './SelectedChat.css';
 
 class SelectedChat extends Component {
   render() {
-    const { message } = this.props;
+    const { onSendMessage, message } = this.props;
     return (
       <div className="Selected-chat">
         <h3>Selected Chat</h3>
@@ -16,7 +16,7 @@ class SelectedChat extends Component {
 
         <ChatMessage type="user" message='user'/>
 
-        <TextBox/>
+        <TextBox onSendMessage={onSendMessage}/>
       </div>
     );
   }

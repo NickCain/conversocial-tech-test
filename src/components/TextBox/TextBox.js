@@ -12,7 +12,9 @@ class TextBox extends Component {
   }
 
   handleSubmit = (e) => {
-    console.log('ssend')
+    e.preventDefault();
+    const { onSendMessage } = this.props;
+    onSendMessage(this.state.text);
   };
 
   handleOnChange = (e) => {
@@ -26,7 +28,11 @@ class TextBox extends Component {
     return (
       <div className="Textbox">
         <form type="submit" onSubmit={this.handleSubmit}>
-          <textarea placeholder="write your message here..." onSubmit={this.handleSubmit} onChange={this.handleOnChange}></textarea>
+          <input
+            placeholder="write your message here..."
+            onSubmit={this.handleSubmit}
+            onChange={this.handleOnChange}>
+          </input>
         </form>
       </div>
     );

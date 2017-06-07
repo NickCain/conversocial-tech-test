@@ -22,7 +22,9 @@ ShallowWrapper {
         message="user"
         type="user"
     />
-    <TextBox />
+    <TextBox
+        onSendMessage={undefined}
+    />
 </div>,
   "nodes": Array [
     <div
@@ -39,7 +41,9 @@ ShallowWrapper {
             message="user"
             type="user"
       />
-      <TextBox />
+      <TextBox
+            onSendMessage={undefined}
+      />
 </div>,
   ],
   "options": Object {},
@@ -90,7 +94,9 @@ ShallowWrapper {
                     message="user"
                     type="user"
           />
-          <TextBox />
+          <TextBox
+                    onSendMessage={undefined}
+          />
 </div>,
         "_debugID": 16,
         "_renderedOutput": <div
@@ -107,7 +113,9 @@ ShallowWrapper {
                     message="user"
                     type="user"
           />
-          <TextBox />
+          <TextBox
+                    onSendMessage={undefined}
+          />
 </div>,
       },
       "_renderedNodeType": 0,

@@ -12,10 +12,12 @@ ShallowWrapper {
     className="Textbox"
 >
     <form
-        onSubmit={undefined}
+        onSubmit={[Function]}
         type="submit"
     >
         <textarea
+            onChange={[Function]}
+            onSubmit={[Function]}
             placeholder="write your message here..."
         />
     </form>
@@ -25,10 +27,12 @@ ShallowWrapper {
       className="Textbox"
 >
       <form
-            onSubmit={undefined}
+            onSubmit={[Function]}
             type="submit"
       >
             <textarea
+                  onChange={[Function]}
+                  onSubmit={[Function]}
                   placeholder="write your message here..."
             />
       </form>
@@ -47,9 +51,13 @@ ShallowWrapper {
       "_instance": TextBox {
         "_reactInternalInstance": [Circular],
         "context": Object {},
+        "handleOnChange": [Function],
+        "handleSubmit": [Function],
         "props": Object {},
         "refs": Object {},
-        "state": Object {},
+        "state": Object {
+          "text": "",
+        },
         "updater": Object {
           "enqueueCallback": [Function],
           "enqueueCallbackInternal": [Function],
@@ -72,10 +80,12 @@ ShallowWrapper {
           className="Textbox"
 >
           <form
-                    onSubmit={undefined}
+                    onSubmit={[Function]}
                     type="submit"
           >
                     <textarea
+                              onChange={[Function]}
+                              onSubmit={[Function]}
                               placeholder="write your message here..."
                     />
           </form>
@@ -85,10 +95,12 @@ ShallowWrapper {
           className="Textbox"
 >
           <form
-                    onSubmit={undefined}
+                    onSubmit={[Function]}
                     type="submit"
           >
                     <textarea
+                              onChange={[Function]}
+                              onSubmit={[Function]}
                               placeholder="write your message here..."
                     />
           </form>
